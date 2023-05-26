@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+
+#branding {
+    background: gray;
+    padding: 10px;
+    text-align: center;
+}
+
+#branding h1 {
+    color: white;
+    font-size: 24px;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    
+
+}
+
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 32px;
+
+}
+
+nav li.current a {
+    font-weight: bold;
+    color: red;
+
+}
+
+nav li a:hover {
+background: grey;
+
+}  
